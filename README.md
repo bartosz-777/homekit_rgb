@@ -1,0 +1,3 @@
+My own implementation of homekit hsv/hsl color conversion to rgbcw,It's different then any other, i learned how hsl work and at least tried to implement it and it came out pretty good, i know there already is code for converting hsl to rgb, but my code actually uses lightness, the effect is that you can set light color to almost white with a little bit of pink for example, or whatever other color
+
+For it to work you need an light source with rgb and preferebly cold/neutral LEDs, it's designed to work with any homekit implemenatio in C(for example anything that runs on esp32/8266) but you could use it with any "controller" that sends values in hsl
